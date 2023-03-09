@@ -52,7 +52,7 @@ function SearchExecutor (name, email) {
 
         if (exec.name === name &&
             exec.email === email) { 
-                console.log(`Customer found: name: ${exec.name}\nemail: ${exec.email}\n`)
+                console.log(`Executor found: name: ${exec.name}\nemail: ${exec.email}\n`)
                 return exec; 
             }
     }
