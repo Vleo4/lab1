@@ -1,8 +1,8 @@
 function splitTapeIntoWords(tape) {
-  // Use a regular expression to split the tape into words
+  // split the tape into words
   let words = tape.split(/\s+/);
   
-  // Remove any empty words (e.g., caused by multiple spaces in a row)
+  // remove empty words
   words = words.filter(word => word !== '');
   
   return words;
